@@ -1,0 +1,57 @@
+*{
+   padding: 0px;  
+   margin:  0px;   
+}
+
+.navabar{
+   width: 100%;  
+   background-color: green;   
+   border: 2px;  
+   border-radius: 2px; 
+   border-style: outset;     
+   padding: 2px;  
+   margin: 0px;  
+   height: 100px;  
+   display: block; 
+   background-attachment: fixed;        
+}
+
+.logo{
+  float: left;  
+  color: black;
+  font-size: 30px;    
+  margin-top: 20px;  
+  margin-left: 30px;  
+  font-weight: bold;   
+}
+
+.menu{
+   float: left;   
+   width: 600px;  
+   height: 40px;      
+}
+
+.menu ul{
+    float: left;  
+    display: flex; 
+    justify-content: center;  
+    justify-items: center;
+}
+
+.menu ul li{
+   list-style: none;  
+   font-size: 20px;  
+   margin-left: 30px;
+   margin-top: 24px;
+}
+
+.menu ul li a{
+    text-decoration: none;  
+    color: white;
+    font-weight: bold;
+}
+
+.menu ul li a:hover{
+    color: yellow;
+}
+
