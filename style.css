@@ -73,7 +73,7 @@
    height: 100%;  
    background-repeat: no-repeat;   
 }
-
+       
 .account{
    width: 250px;  
    height: 300px;     
@@ -83,3 +83,12 @@
    transform: translate(-50%,-50%);    
 }
 
+.account_logo{
+   width: 35px;  
+   height: 35px;  
+   border-radius: 40px;  
+   top: calc(50%-70px);   
+   left: 45%;  
+   position: absolute;  
+   transform: translate(-50%,-50%);
+}
